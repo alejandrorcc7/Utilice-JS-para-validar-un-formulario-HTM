@@ -1,11 +1,13 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
-
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
+  let form = document.querySelector("Card");
+  form.addEventListener("submit", evento => {
+    evento.preventDefault();
+
+    console.log(evento);
+  });
+
+  let message = document.querySelector("#Message");
 };
+function saludar() {
+  alert("Haciendo click");
+}
