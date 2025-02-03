@@ -1,13 +1,8 @@
-window.onload = function() {
-  let form = document.querySelector("Card");
-  form.addEventListener("submit", evento => {
-    evento.preventDefault();
+.warnings {
 
-    console.log(evento);
-  });
-
-  let message = document.querySelector("#Message");
-};
-function saludar() {
-  alert("Haciendo click");
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #b06AB3;
+    padding-top: 20px;
 }
